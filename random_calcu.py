@@ -89,7 +89,6 @@ def divisao(e, f):
   else:
     print(f"Errado, o resultado de ({e}) / ({f}) é: {resultado}.") # Afirma que o resultado está errado, e mostra novamente a conta com a reposta certa.
 
-print()
 while True: # Output final com loop, e com opção de sáida dentro das funções de cálculo para quebra do loop.
   a, b = som_sub() # Armazena os valores aleatórios para que seja pego pelas funções de cálculo 1.Soma/subtração.
   c, d = mul() # Armazena os valores aleatórios para que seja pego pelas funções de cálculo 2.Multiplicação.
