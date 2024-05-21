@@ -15,7 +15,7 @@ def conta(): # Função de 1.Soma/Subtração, 3.Multiplicação , 4.Divisão
   elif dado == 3: # 3.DIVISÃO
     while a == 0 or abs(b) == 1 or b == 0 or a == -b or a == b or a % b != 0 or (a / b == 2 or a / b == -2): 
       a, b = random.randint(-320, 320), random.randint(-100, 100) # Número aleatório de A e B até não ser uma das condições do while
-    resultado = a / b 
+    resultado = a / b
  
   resposta = input(f'Qual é o resultado de ({a}) {sinal[dado]} ({b}) (ou digite "s" para sair): ').lower() # Local aonde o usuário vai responder a questão matemática
   if resposta == 's': # Caso reposda com "s", ele encerra o programa
